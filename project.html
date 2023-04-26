@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <style>
+    ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: steelblue;
+    }
+
+    li {
+      float: left;
+    }
+
+
+
+    li a {
+      display: block;
+      color: white;
+      text-align: center;
+      font-size: xx-large;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+
+    /* li a:hover {
+      background-color:;
+    } */
+
+    .carousel-inner img {
+      width: 100%;
+      height: 100%;
+    }
+  </style>
+</head>
+
+<body>
+
+  <ul>
+    <li><a href="https://www.jnu.ac.in/main/index.php"><img src="j1.jfif"></a></li>
+    <li><a href="https://www.jnu.ac.in/jnuataglance">ABOUT</a></li>
+    <li><a href="https://www.jnu.ac.in/node#quicktabs-front_page_qui">ACADEMICS</a></li>
+    <li><a href="https://www.jnu.ac.in/admissions">ADMISSIONS</a></li>
+    <li style="float: right;"><a href="https://www.jnu.ac.in/search/node/"><input type="text" placeholder=""
+          style="width: 250px; background-color:white;height: 40px;"><i class="fa fa-search" style="font-size:24px"></i>
+    </li></a><br><br><br><br>
+    <li style="float: right;"><a href="https://www.jnu.ac.in/career"><img src="n4.png" alt="height=70px"
+          width="70px"></a></li>
+    <li style="float: right;"><a href="https://www.jnu.ac.in/tender"><img src="n3.png" alt="height=70px"
+          width="70px"></a></li>
+    <li style="float: right;"><a href="https://www.jnu.ac.in/index.php/user/login"><img src="n2.png" alt="height=70px"
+          width="70px"></a></li>
+    <li style="float: right;"><a href="https://email.gov.in/"><img src="n1.png" alt="height=70px" width="70px"></a></li>
+  </ul>
+
+  <div id="demo" class="carousel slide" data-bs-ride="carousel">
+
+    <!-- Indicators/dots -->
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+      <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+      <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+    </div>
+
+    <!-- The slideshow/carousel -->
+    <div class="carousel-inner">
+
+      <div class="carousel-item active">
+        <img src="u1.jpg" alt="" class="d-block" style="width:100%">
+        <div class="carousel-caption">
+          <h3>जवाहरलाल नेहरू विश्वविद्यालय</h3>
+          <h3>Jawaharlal Nehru University.</h3>
+
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="u2.jpg" alt="" class="d-block" style="width:100%">
+        <div class="carousel-caption">
+          <h3>जवाहरलाल नेहरू विश्वविद्यालय</h3>
+          <h3>Jawaharlal Nehru University.</h3>
+
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="u3.jpg" alt="" class="d-block" style="width:100%">
+        <div class="carousel-caption">
+          <h3>जवाहरलाल नेहरू विश्वविद्यालय</h3>
+          <h3>Jawaharlal Nehru University.</h3>
+
+        </div>
+      </div>
+    </div>
+
+    <!-- Left and right controls/icons -->
+    <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon"></span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+      <span class="carousel-control-next-icon"></span>
+    </button>
+  </div>
+
+
+  <div id="demo" class="carousel slide" data-ride="carousel">
+
+    Indicators
+    <ul class="carousel-indicators">
+      <li data-target="#demo" data-slide-to="0" class="active"></li>
+      <li data-target="#demo" data-slide-to="1"></li>
+      <li data-target="#demo" data-slide-to="2"></li>
+      <li data-target="#demo" data-slide-to="3"></li>
+      <li data-target="#demo" data-slide-to="4"></li>
+      <li data-target="#demo" data-slide-to="5"></li>
+      <li data-target="#demo" data-slide-to="6"></li>
+      <li data-target="#demo" data-slide-to="7"></li>
+      <li data-target="#demo" data-slide-to="8"></li>
+      <li data-target="#demo" data-slide-to="9"></li>
+      <li data-target="#demo" data-slide-to="10"></li>
+      <li data-target="#demo" data-slide-to="11"></li>
+      <li data-target="#demo" data-slide-to="12"></li>
+      <li data-target="#demo" data-slide-to="13"></li>
+    </ul>
+
+    The slideshow
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="1.jpg" width="1100" height="500">
+      </div>
+      <div class="carousel-item">
+        <img src="2.jpg" width="1100" height="500">
+      </div>
+      <div class="carousel-item">
+        <img src="3.jpg" width="1100" height="500">
+      </div>
+      <div class="carousel-item">
+        <img src="4.jpg" width="1100" height="500">
+      </div>
+      <div class="carousel-item">
+        <img src="5.jpg" width="1100" height="500">
+      </div>
+      <div class="carousel-item">
+        <img src="6.jpg" width="1100" height="500">
+      </div>
+      <div class="carousel-item">
+        <img src="7.jpg" width="1100" height="500">
+      </div>
+      <div class="carousel-item">
+        <img src="8.jpg" width="1100" height="500">
+      </div>
+      <div class="carousel-item">
+        <img src="9.jpg" width="1100" height="500">
+      </div>
+      <div class="carousel-item">
+        <img src="10.jpg" width="1100" height="500">
+      </div>
+      <div class="carousel-item">
+        <img src="11.jpg" width="1100" height="500">
+      </div>
+      <div class="carousel-item">
+        <img src="12.jpg" width="1100" height="500">
+      </div>
+      <div class="carousel-item">
+        <img src="13.jpg" >
+      </div>
+      <div class="carousel-item">
+        <img src="14.jpg">
+      </div>
+    </div>
+
+
+    Left and right controls
+    <a class="carousel-control-prev" href="#demo" data-slide="prev">
+      <span class="carousel-control-prev-icon"></span>
+    </a>
+    <a class="carousel-control-next" href="#demo" data-slide="next">
+      <span class="carousel-control-next-icon"></span>
+    </a>
+  </div>
+  <div class="container mt-1">
+    <div class="row ">
+      <div class="col">
+
+    <div class="card" style="width:400px">
+
+      <div class="card-body">
+
+        <p class="card-text " style="">
+          <b>उपलब्धियां</b><br>
+          <b> ACHIEVEMENTS</b><br>
+        <ul>
+          <li> Dr. Sonu Saini, CRS/SLL&CS receives Pushkin Prize, 2022</li>
+          <li> Prof. Dinesh Mohan named as "Clarivate Highly Cited Researcher 2022" for the NINTH consecutive year</li>
+          <li>
+            Prof. Babu Thaliath, CGS/SLL&CS awarded the prestigious Peter Hünermann Prize by the KAAD foundation Bonn
+          </li>
+          <li> Dr. Manuradha Chaudhary, CRS/SLL&CS receives the prestigious Laureate of XXII International Pushkin
+            Competition Award</li>
+        </ul>
+        </p>
+      </div>
+    </div>
+      </div>
+    </div>
+     <div class="container mt-1" style="">
+      <div class="col ">
+
+      <div class="card" style="width:400px">
+
+        <div class="card-body">
+
+          <p class="card-text  bg-primary">
+            <b>उपलब्धियां</b><br>
+            <b> ACHIEVEMENTS</b><br>
+          <ul>
+            <li> Dr. Sonu Saini, CRS/SLL&CS receives Pushkin Prize, 2022</li>
+            <li> Prof. Dinesh Mohan named as "Clarivate Highly Cited Researcher 2022" for the NINTH consecutive year
+            </li>
+            <li>
+              Prof. Babu Thaliath, CGS/SLL&CS awarded the prestigious Peter Hünermann Prize by the KAAD foundation Bonn
+            </li>
+            <li> Dr. Manuradha Chaudhary, CRS/SLL&CS receives the prestigious Laureate of XXII International Pushkin
+              Competition Award</li>
+          </ul>
+          </p>
+        </div>
+      </div>
+      </div>
+   
+</body>
+
+</html>
